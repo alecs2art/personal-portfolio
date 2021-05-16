@@ -2,30 +2,115 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #edeef6;
+    text-decoration: none;
+}
+
+:root {
+    --darkblue: #32333e;
+    --cyan: #92ccd0;
 }
 
 header {
-    padding: 40px 0px 0px 15px;
-    background-color: ;
-
+    padding: 14px;
+    background-color: var(--darkblue);
+    display: flex;
+    justify-content: space-between;
+    
+    
 }
 
 header h1 {
     font-weight: bold;
     font-size: 46px;
-    margin: 0;
+    margin: 25px;
+    color: var(--darkblue);
+    background-color: var(--cyan);
+    text-decoration: none;
+    padding: 0;
+    display: inline;
+    float:left
+    
 }
 
 header nav {
-    margin: 10px 0;
+    margin: 40px;
+    background-color: var(--darkblue);
     float: right;
 }
 
+header nav ul {
+    background-color: var(--darkblue);
+}
+
 header nav ul li {
+    background-color: var(--darkblue);
     display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    
     
 }
 
 header nav ul li a {
     margin: 0 25px;
+    padding: 0 25px;
+    background-color: var(--darkblue);
+}
+
+header a {
+    font-size: x-large;
+    text-decoration-line: underline;
+    background-color: var(--darkblue);
+    color: var(--cyan);
+    
+}
+
+.hero {
+    height: 300px;
+    background-image: url("../assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 25px;
+    right: 25px; 
+}
+
+.subtitle p {
+    background-color: var(--cyan);
+    color: var(--darkblue);
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.about-me {
+    color: var(--darkblue);
+    padding: 10px;
+    height: 80px;
+    
+
+}
+
+.about-me h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    width: 10%;
+    float: left;
+    padding-left: 300px;
+    padding-top: 60px;
+   
+}
+
+.about-me p {
+    width: 75%;
+    float:right;
+    border-left: 3px solid var(--darkblue);
+    padding: 45px;
+    margin-top: 60px;
+
 }

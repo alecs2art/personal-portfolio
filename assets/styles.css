@@ -11,13 +11,13 @@
     --cyan: #92ccd0;
 }
 
+/* Header Style Start */
+
 header {
     padding: 14px;
     background-color: var(--darkblue);
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;  
 }
 
 header h1 {
@@ -29,8 +29,7 @@ header h1 {
     text-decoration: none;
     padding: 0;
     display: inline;
-    float:left
-    
+    float:left 
 }
 
 header nav {
@@ -47,9 +46,7 @@ header nav ul li {
     background-color: var(--darkblue);
     display: inline;
     text-decoration: none;
-    list-style-type: none;
-    
-    
+    list-style-type: none;  
 }
 
 header nav ul li a {
@@ -62,9 +59,12 @@ header a {
     font-size: x-large;
     text-decoration-line: underline;
     background-color: var(--darkblue);
-    color: var(--cyan);
-    
+    color: var(--cyan); 
 }
+
+/* Header Style End */
+
+/* Hero Style Start */
 
 .hero {
     height: 300px;
@@ -88,12 +88,14 @@ header a {
     padding: 5px;
 }
 
+/* Hero Style End */
+
+/* About Me Style Start */
+
 .about-me {
     color: var(--darkblue);
     padding: 10px;
     height: 80px;
-    
-
 }
 
 .about-me h2 {
@@ -103,7 +105,6 @@ header a {
     float: left;
     padding-left: 300px;
     padding-top: 60px;
-   
 }
 
 .about-me p {
@@ -112,8 +113,11 @@ header a {
     border-left: 3px solid var(--darkblue);
     padding: 45px;
     margin-top: 60px;
-
 }
+
+/* About Me Style End */
+
+/* Work Style Start */
 
 .work {
     display: flex;
@@ -141,7 +145,6 @@ header a {
     border: 3px solid var(--cyan);
     padding: 10px;
     margin: 25px;
-
 }
 
 .surf-report {
@@ -254,5 +257,37 @@ header a {
     background-color: var(--cyan);
 }
 
+/* Work Style End */
 
+/* Contact Me Style Start */
+
+.contact-me {
+    color: var(--darkblue);
+    padding: 10px;
+    height: 80px;
+}
+
+.contact-me h2 {
+    font-size: 45px;
+    font-weight: bolder;
+    width: 10%;
+    float: left;
+    padding-left: 300px;
+    padding-top: 60px;
+    padding-right: 172px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    border-right: 3px solid var(--darkblue);
+}
+
+.contact-me ul li {
+    display: inline;
+    margin: 100px 10px 10px 150px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Contact Me Style End */
 

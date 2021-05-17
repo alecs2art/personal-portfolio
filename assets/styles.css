@@ -21,8 +21,8 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 46px;
+    font-weight: bolder;
+    font-size: 55px;
     margin: 25px;
     color: var(--darkblue);
     background-color: var(--cyan);
@@ -97,7 +97,7 @@ header a {
 }
 
 .about-me h2 {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bolder;
     width: 10%;
     float: left;
@@ -114,3 +114,62 @@ header a {
     margin-top: 60px;
 
 }
+
+.work {
+    display: flex;
+    color: var(--darkblue);
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.work h2 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 300px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: 3px solid var(--darkblue);
+    margin-left: 62px;
+    width: 1200px;
+}
+
+.flex-box div {
+    border: 3px solid var(--cyan);
+    padding: 10px;
+    margin: 25px;
+
+}
+
+.surf-report {
+    flex-basis: 1200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 600px;
+    background-image: url("../assets/surf-report-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.surf-report h3, .surf-report p {
+    background-color: var(--cyan);
+    padding: 5px;
+    
+
+    
+}
+
+.led-wall,
+.calculator,
+.pastel-puzzels,
+.run-buddy {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 200px;
+}
+
+

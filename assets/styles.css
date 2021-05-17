@@ -152,24 +152,107 @@ header a {
     background-image: url("../assets/surf-report-bg.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.surf-report article {
+    position: absolute;    
+    margin-top: 500px;
+    padding: 10px;
+    background-color: var(--cyan);
 }
 
 .surf-report h3, .surf-report p {
     background-color: var(--cyan);
-    padding: 5px;
-    
-
-    
 }
 
-.led-wall,
-.calculator,
-.pastel-puzzels,
+.led-wall {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 200px;
+    background-image: url("../assets/led-wall-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.led-wall article {
+    position: absolute;
+    margin-top: 125px;
+    padding: 5px;
+    background-color: var(--cyan);
+}
+
+.led-wall h3, .led-wall p {
+    background-color: var(--cyan);
+}
+
+.calculator {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 200px;
+    background-image: url("../assets/calculator-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.calculator article {
+    position: absolute;
+    margin-top: 125px;
+    padding: 5px;
+    background-color: var(--cyan);
+}
+
+.calculator h3, .calculator p {
+    background-color: var(--cyan);
+}
+
+.pastel-puzzels {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 200px;
+    background-image: url("../assets/pastel-puzzels-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.pastel-puzzels article {
+    position: absolute;
+    margin-top: 125px;
+    padding: 5px;
+    background-color: var(--cyan);
+}
+
+.pastel-puzzels h3, .pastel-puzzels p {
+    background-color: var(--cyan);
+}
+
 .run-buddy {
     flex-basis: 400px;
     flex-grow: 1;
     flex-shrink: 1;
     height: 200px;
+    background-image: url("../assets/run-buddy-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
+
+.run-buddy article {
+    position: absolute;
+    margin-top: 125px;
+    padding: 5px;
+    background-color: var(--cyan);
+}
+
+.run-buddy h3, .run-buddy p {
+    background-color: var(--cyan);
+}
+
 
 
